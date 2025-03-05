@@ -262,12 +262,41 @@ animation-duration: 300ms;
   <div class="card-body mycolorfont">
     <h5 class="card-title mycolorbg" style="text-align:center;">Ranking suspensão</h5>
     <p class="card-text">Queremos parabenizar a todos os competidores pelo desempenho excepcional e pela paixão demonstrada ao longo desta jornada emocionante..</p>
-
+    <style>
+        .dropdown {
+            width: 100%;
+            border: 1px solid #c1caf4;
+        }
+        .dropdown-header {
+            background-color: #1a1b26;
+            color: #c1caf4;
+            padding: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            text-align: center;
+        }
+        .dropdown-content {
+            display: none;
+            padding: 15px;
+            background-color: #111111;
+            border-top: 1px solid #c1caf4;
+        }
+       .dropdown-contentA {
+            display: none;
+            padding: 15px;
+            background-color: #111111;
+            border-top: 1px solid #c1caf4;
+        }
+    </style>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown()">Ranking de 2024 - ver mais.</div>
+        <div class="dropdown-content">
+					<p>Quero parabenizar, com grande emoção, Os campeões de 2024, que brilharam na missão. Com garra e talento, souberam vencer, Um ano de glórias para sempre viver! 🏆✨</p>
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">Aro 13 fixa</th></tr>
 			<tr><td>1°</td><td>4.65</td><td>Marcos</td><td>São Miguel Oeste SC</td>
-			<tr><td>2°</td><td>7.75 </td><td>Junior furtado</td><td>Santa Cecília SC</td>
-			<tr><td>3°</td><td>9.15 </td><td>Vagner</td><td>...</td>
+			<tr><td>2°</td><td>6.1</td><td>Junior furtado</td><td>Santa Cecília SC</td>
+			<tr><td>3°</td><td>9.15</td><td>Vagner</td><td>...</td>
 			</tr>
 	  </table>
 			</br>
@@ -275,8 +304,8 @@ animation-duration: 300ms;
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 rosca</th></tr>
 			<tr><td>1°</td><td>2.5</td><td>dionatan</td><td>Curitibanos SC</td>
-			<tr><td>2°</td><td>6.55</td><td>Jonathan</td><td>Joaçaba SC</td>
-			<tr><td>3°</td><td>7,35</td><td>Patrick Moraes</td><td>Lebon Regis SC</td>
+			<tr><td>2°</td><td>6.5</td><td>Marcos Vinicio</td><td>Lages SC</td>
+			<tr><td>3°</td><td>7,15</td><td>Rafael</td><td>Espumoso SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -316,7 +345,7 @@ animation-duration: 300ms;
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 mista</th></tr>
 			<tr><td>1°</td><td>1.75</td><td>Wesley</td><td>Cunha Pora SC</td>
-			<tr><td>2°</td><td>6.45</td><td>Marcos Pepe</td><td>Curitibanos SC</td>
+			<tr><td>2°</td><td>5.3</td><td>Emerson Miranda</td><td>Correia Pinto SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -339,8 +368,8 @@ animation-duration: 300ms;
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 ar</th></tr>
 			<tr><td>1°</td><td>2.55</td><td>Samuel maia</td><td>Curitibanos SC</td>
-			<tr><td>2°</td><td>3.6</td><td>Wesley Rodrigues</td><td>Campos Novos SC</td>
-			<tr><td>3°</td><td>6.2</td><td>Fabricio Batista</td><td>curitibanos SC</td>
+			<tr><td>2°</td><td>3.25</td><td>Erick Duarte</td><td>Lages SC</td>
+			<tr><td>3°</td><td>6.20</td><td>Fabricio Batista</td><td>curitibanos SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -366,11 +395,11 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 fixa feminino</th></tr>
-			<tr><td>1°</td><td>12.15</td><td>Cauane Souza</td><td>Santa Cecília SC</td>
+			<tr><td>1°</td><td>6.1</td><td>Silvana Oliveira</td><td>Santa Cecília SC</td>
+			<tr><td>2°</td><td>12.15</td><td>Cauane Souza</td><td>Santa Cecília SC</td>
 			</tr>
 	  </table>
 			</br>
-
 
 
 		<table class="mycolorfont mycolorbg">
@@ -379,8 +408,6 @@ animation-duration: 300ms;
 			</tr>
 	  </table>
 			</br>
-
-
 
 
 		<table class="mycolorfont mycolorbg">
@@ -402,18 +429,26 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 rosca</th></tr>
-			<tr><td>1°</td><td>8.0</td><td>Fabiano Kochagmem</td><td>Santa Cecília SC</td>
-			<tr><td>2°</td><td>10.0</td><td>Lucas Morais</td><td>Passo Fundo RS</td>
-			<tr><td>3°</td><td>10.8</td><td>Fabio Lupi</td><td>União da Vitória PR</td>
+			<tr><td>1°</td><td>3.5</td><td>Daboit</td><td>Lages SC</td>
+			<tr><td>2°</td><td>6.25</td><td>Lugar Flávio Bueno</td><td>Soledade RS </td>
+			<tr><td>3°</td><td>8.0</td><td>Fabiano Kochagmem</td><td>Santa Cecília SC</td>
 			</tr>
 	  </table>
 			</br>
 
 		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 original</th></tr>
+			<tr><td>1°</td><td>18.50</td><td>Pedro Henrique</td><td>Lages SC</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 rosca feminino</th></tr>
-			<tr><td>1°</td><td>7.25</td><td>kaisavi</td><td>Irani SC</td>
+			<tr><td>1°</td><td>3.85</td><td>Brenda Taise</td><td>Lages SC</td>
 			<tr><td>2°</td><td>5.35</td><td>Taiane Lourenço dias</td><td>Santa Cecília SC</td>
-			<tr><td>3°</td><td>8.0</td><td>Jéssica Teixeira Martins</td><td>Santa Cecília SC</td>
+			<tr><td>3°</td><td>7.25</td><td>kaisavi</td><td>Irani SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -467,7 +502,8 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 fixa</th></tr>
-			<tr><td>1°</td><td>10.2</td><td>Heitor Matheus</td><td>Curitibanos SC</td>
+			<tr><td>1°</td><td>10.20</td><td>Heitor Matheus</td><td>Curitibanos SC</td>
+			<tr><td>2°</td><td>8.95</td><td>Kauã nascimento</td><td>Soledade RS</td>
 			</tr>
 	  </table>
 			</br>
@@ -497,7 +533,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape fixa</th></tr>
-			<tr><td>1°</td><td>0.65</td><td>lugar Patrick Silva</td><td>Cidade Lebon Regis </td>
+			<tr><td>1°</td><td>6.1</td><td>Emilin</td><td>Saudades SC</td>
+			<tr><td>2°</td><td>6.1</td><td>Ariel</td><td>Saudades SC</td>
+			<tr><td>3°</td><td>0.65</td><td>lugar Patrick Silva</td><td>Cidade Lebon Regis </td>
 			</tr>
 	  </table>
 			</br>
@@ -514,9 +552,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 rosca com corte</th></tr>
-			<tr><td>1°</td><td>1.5</td><td>Everton Ferreira</td><td>Novos SC</td>
-			<tr><td>2°</td><td>2.2</td><td>Luan Joaquim Barbosa</td><td>Pinhalzinho SC</td>
-			<tr><td>3°</td><td>2.25</td><td>Gabriel Luis</td><td>Correia Pinto SC </td>
+			<tr><td>1°</td><td>0.00</td><td>Pierre</td><td>Saudades SC</td>
+			<tr><td>2°</td><td>1.50</td><td>Everton Ferreira</td><td>Novos SC</td>
+			<tr><td>3°</td><td>2.20</td><td>Luan Joaquim Barbosa</td><td>Pinhalzinho SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -535,8 +573,8 @@ animation-duration: 300ms;
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 ar</th></tr>
 			<tr><td>1°</td><td>1,45</td><td>Leonardo</td><td>Cidade Cerrito SC</td>
-			<tr><td>2°</td><td>3.45</td><td>Matheus Felipe</td><td>Videira SC</td>
-			<tr><td>3°</td><td>3.5</td><td>João Vitor</td><td>Curitibanos sc</td>
+			<tr><td>2°</td><td>1.7</td><td>Sebastião Borges </td><td>Bom Retiro SC</td>
+			<tr><td>3°</td><td>3.2</td><td>Pedro Henrique</td><td>Tapera RS</td>
 			</tr>
 	  </table>
 			</br>
@@ -604,7 +642,7 @@ animation-duration: 300ms;
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 fixa</th></tr>
 			<tr><td>1°</td><td>3.55</td><td>Matheus fenili</td><td>Joaçaba SC</td>
 			<tr><td>2°</td><td>5.5</td><td>Anderson Alves</td><td>União da Vitória PR</td>
-			<tr><td>3°</td><td>7.85</td><td>Jefiael Marcelino</td><td>Curitibanos SC</td>
+			<tr><td>3°</td><td>6.5</td><td>Dudu</td><td>Pinhalzinho SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -645,10 +683,20 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape com corte ar</th></tr>
+			<tr><td>1°</td><td>0.00</td><td>Wellinton</td><td>...</td>
+			<tr><td>1°</td><td>0.45</td><td>Bruno branco</td><td>...</td>
 			<tr><td>1°</td><td>2.1</td><td>Daniel klibara</td><td>Paulo Frontin pr</td>
 			</tr>
 	  </table>
 			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape com corte extreme</th></tr>
+			<tr><td>1°</td><td>-4,65</td><td>Wellinton</td><td>Maravilha SC</td>
+			</tr>
+	  </table>
+			</br>
+
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 com corte ar</th></tr>
@@ -676,13 +724,15 @@ animation-duration: 300ms;
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 facão</th></tr>
 			<tr><td>1°</td><td>5.0</td><td>Ricardo floss</td><td>Saudades SC</td>
+			<tr><td>2°</td><td>5.5</td><td>Vinícius Wolf</td><td>Lages SC</td>
 			</tr>
 	  </table>
 			</br>
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 original</th></tr>
-			<tr><td>1°</td><td>19.4</td><td>Dalvan</td><td>Pinhalzinho sc</td>
+			<tr><td>1°</td><td>19.6</td><td>Bruno Petry</td><td>Correia pinto sc</td>
+			<tr><td>2°</td><td>19.4</td><td>Dalvan</td><td>Pinhalzinho sc</td>
 			</tr>
 	  </table>
 			</br>
@@ -690,9 +740,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 ar</th></tr>
-			<tr><td>1°</td><td>4.4</td><td>Vitor Kunzier</td><td>Chapecò SC</td>
-			<tr><td>2°</td><td>4.5</td><td>Iago caíque Batista</td><td>general Carneiro</td>
-			<tr><td>3°</td><td>6.75</td><td>Carlos Ramos</td><td>Campos Novos SC</td>
+			<tr><td>1°</td><td>2.25</td><td>Cristiano</td><td>Chapecó SC</td>
+			<tr><td>2°</td><td>2.40</td><td>Dreyk</td><td>Nova erechim SC</td>
+			<tr><td>3°</td><td>3.10</td><td>Igor jardim</td><td>Correria pinto sc</td>
 			</tr>
 	  </table>
 			</br>
@@ -706,11 +756,20 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 rosca</th></tr>
-			<tr><td>1°</td><td>7.75</td><td>Esmael de oliveira</td><td>Nova Itaberaba SC</td>
+			<tr><td>1°</td><td>7.10</td><td>Igor nogath</td><td>Correia pinto sc</td>
+			<tr><td>2°</td><td>7.75</td><td>Esmael de oliveira</td><td>Nova Itaberaba SC</td>
 			<tr><td>2°</td><td>8.15</td><td>Theo Antônio</td><td>Piratuba</td>
 			</tr>
 	  </table>
 			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 picape ar</th></tr>
+			<tr><td>1°</td><td>9.7</td><td>Cleiton</td><td>Correia pinto sc</td>
+			</tr>
+	  </table>
+			</br>
+
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 rosca feminino</th></tr>
@@ -721,7 +780,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 fixa</th></tr>
-			<tr><td>1°</td><td>4.4</td><td>Jonathan</td><td>catanduva</td>
+			<tr><td>1°</td><td>4.40</td><td>Jonathan</td><td>catanduva</td>
+			<tr><td>2°</td><td>9.15</td><td>Reimar</td><td>Nova Itaberaba SC </td>
+			<tr><td>3°</td><td>13.90</td><td>Luciano Santos</td><td>Correia pinto</td>
 			</tr>
 	  </table>
 			</br>
@@ -765,9 +826,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar com corte</th></tr>
-			<tr><td>1°</td><td>0.0</td><td>Fabio Ribeiro</td><td>Campos novos SC</td>
-			<tr><td>2°</td><td>0.2</td><td>Fabio Ribeiro</td><td>Campos Novos SC</td>
-			<tr><td>3°</td><td>0.3</td><td>Anderson</td><td>Correia Pinto SC</td>
+			<tr><td>1°</td><td>0.00</td><td>Fabio Ribeiro</td><td>Campos novos SC</td>
+			<tr><td>2°</td><td>0.20</td><td>Fabio Ribeiro</td><td>Campos Novos SC</td>
+			<tr><td>2°</td><td>0.35</td><td>Leandro rosa Moreira</td><td>Lages SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -775,7 +836,8 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 rosca com corte</th></tr>
-			<tr><td>1°</td><td>2.5</td><td>Maxx</td><td>Curitibanos SC</td>
+			<tr><td>1°</td><td>1.9</td><td>Pierre</td><td>Saudades SC</td>
+			<tr><td>2°</td><td>2.5</td><td>Maxx</td><td>Curitibanos SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -802,9 +864,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 rosca</th></tr>
-			<tr><td>1°</td><td>3.6</td><td>Lucas Souza</td><td>Piratuba SC</td>
-			<tr><td>2°</td><td>4.8</td><td>Joaquim Barbosa</td><td>Pinhalzinho SC</td>
-			<tr><td>3°</td><td>5.0</td><td>Alisson Alves</td><td>Xanxerê SC</td>
+			<tr><td>1°</td><td>3.60</td><td>Lucas Souza</td><td>Piratuba SC</td>
+			<tr><td>2°</td><td>4.40</td><td>Thiago Pereira Silva</td><td>Lages SC</td>
+			<tr><td>3°</td><td>5.00</td><td>Alisson Alves</td><td>Xanxerê SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -824,6 +886,7 @@ animation-duration: 300ms;
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 rosca extreme</th></tr>
 			<tr><td>1°</td><td>4.75</td><td>Rafael Lima</td><td>Manqueirinha SC</td>
+			<tr><td>2°</td><td>6.00</td><td>Josiel lemes</td><td>Correia pinto sc</td>
 			</tr>
 	  </table>
 			</br>
@@ -864,9 +927,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar</th></tr>
-			<tr><td>1°</td><td>2.5</td><td>Matheus Femili</td><td>videira sc</td>
-			<tr><td>2°</td><td>3.3</td><td>Martovan</td><td>Xanxerê SC</td>
-			<tr><td>3°</td><td>3.5</td><td>Nando Magalhães</td><td>Concórdia SC</td>
+			<tr><td>1°</td><td>1.85</td><td>Fabio da Silva</td><td>Lages SC</td>
+			<tr><td>2°</td><td>2.50</td><td>Matheus Femili</td><td>videira sc</td>
+			<tr><td>2°</td><td>3.30</td><td>Martovan</td><td>Xanxerê SC</td>
 			</tr>
 	  </table>
 			</br>
@@ -874,7 +937,7 @@ animation-duration: 300ms;
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar feminino</th></tr>
 			<tr><td>1°</td><td>0.95</td><td>Bruna Maria Medeiros</td><td>são Miguel</td>
-			<tr><td>2°</td><td>1.1</td><td>karla Cecílio</td><td>Lages SC</td>
+			<tr><td>2°</td><td>0.75</td><td>karla Cecílio</td><td>Lages SC</td>
 			<tr><td>3°</td><td>2.5</td><td>Stefany Pasquali</td><td>Campos Novos SC</td>
 			</tr>
 	  </table>
@@ -938,9 +1001,9 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar com corte</th></tr>
-			<tr><td>1°</td><td>3.0</td><td>Wagner mano ita</td><td>...</td>
-			<tr><td>2°</td><td>4.05</td><td>Carlos Fernando</td><td>Correia Pinto SC</td>
-			<tr><td>3°</td><td>5.0</td><td>Matheus Rocker</td><td>Lages SC</td>
+			<tr><td>1°</td><td>0.60</td><td>Lucas Carvalho</td><td>Soledade RS</td>
+			<tr><td>2°</td><td>2.50</td><td>Pablo Roberto</td><td>Lages SC</td>
+			<tr><td>3°</td><td>3.00</td><td>Wagner mano ita</td><td>...</td>
 			</tr>
 	  </table>
 			</br>
@@ -948,12 +1011,11 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar extreme</th></tr>
-			<tr><td>1°</td><td>-1.5 </td><td>Arão</td><td>Curitibanos SC </td>
+			<tr><td>1°</td><td>-1.50</td><td>Arão</td><td>Curitibanos SC </td>
+			<tr><td>2°</td><td>-2.00</td><td>Hericlis</td><td>Lages SC </td>
 			</tr>
 	  </table>
 			</br>
-
-
 
 
 		<table class="mycolorfont mycolorbg">
@@ -963,6 +1025,14 @@ animation-duration: 300ms;
 			</tr>
 	  </table>
 			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">Aro 18 picape com corte feminino</th></tr>
+			<tr><td>1°</td><td>4.6</td><td>Bruna</td><td>Capão bonito do sul RS</td>
+			</tr>
+	  </table>
+			</br>
+
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 fixa com corte feminino</th></tr>
@@ -991,24 +1061,34 @@ animation-duration: 300ms;
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar</th></tr>
-			<tr><td>1°</td><td>2.65</td><td>Vitor Oliveira</td><td>Campos Novos SC</td>
+			<tr><td>1°</td><td>0.65</td><td>Alex Mello</td><td>Soledade</td>
+			<tr><td>2°</td><td>2.65</td><td>Vitor Oliveira</td><td>Campos Novos SC</td>
 			</tr>
 	  </table>
 			</br>
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar feminino</th></tr>
+			<tr><td>1°</td><td>1.20</td><td>Letícia Oliveira</td><td>Lages SC</td>
 			<tr><td>1°</td><td>1.25</td><td>Maila Samara</td><td>Piratuba SC</td>
+			<tr><td>1°</td><td>3.75</td><td>Verônoca</td><td>Cunha Porã SC</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 picape ar</th></tr>
+			<tr><td>1°</td><td>0.40</td><td>David Bicili</td><td>Sarandi RS</td>
+			<tr><td>2°</td><td>1.25</td><td>Jonathan pertile</td><td>Piratuba SC</td>
+			<tr><td>3°</td><td>4.75</td><td>Dirceu</td><td>Lages SC</td>
 			</tr>
 	  </table>
 			</br>
 
 
-
 		<table class="mycolorfont mycolorbg">
-			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 picape ar</th></tr>
-			<tr><td>1°</td><td>0.4</td><td>David Bicili</td><td>Sarandi RS</td>
-			<tr><td>2°</td><td>1,25</td><td>Jonathan pertile</td><td>Piratuba SC</td>
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">Aro 18 fixa picape</th></tr>
+			<tr><td>1°</td><td>3.15</td><td>Daniel</td><td>Soledade RS</td>
 			</tr>
 	  </table>
 			</br>
@@ -1066,15 +1146,30 @@ animation-duration: 300ms;
 			</br>
 
 
-
 		<table class="mycolorfont mycolorbg">
-			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 ar</th></tr>
-			<tr><td>1°</td><td>3.75</td><td>dionatan Aguiar</td><td>capinzal</td>
-			<tr><td>2°</td><td>4.1</td><td>Jonathan Aguiar</td><td>capinzal</td>
-			<tr><td>3°</td><td>4.45</td><td>Felício Monbach</td><td>Tepera RS</td>
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 rosca</th></tr>
+			<tr><td>1°</td><td>4.55</td><td>Gabriel gs prime</td><td>Lages SC</td>
 			</tr>
 	  </table>
 			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 ar</th></tr>
+			<tr><td>1°</td><td>2.45</td><td>Felício</td><td>Tapera RS</td>
+			<tr><td>2°</td><td>3.75</td><td>dionatan Aguiar</td><td>capinzal</td>
+			<tr><td>3°</td><td>4.10</td><td>Jonathan Aguiar</td><td>capinzal</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 ar feminino</th></tr>
+			<tr><td>1°</td><td>2.45</td><td>Michele</td><td>Tapera RS</td>
+			</tr>
+	  </table>
+			</br>
+
 
 		<table class="mycolorfont mycolorbg">
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 fixa</th></tr>
@@ -1185,6 +1280,7 @@ animation-duration: 300ms;
 			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 3 AF frequência fixa 12V</th></tr>
 			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
 			<tr><td>1°</td><td>Gerson Vieira Barbosa</td><td>Passo Fundo RS</td><td>Taramps</td><td>Eros</td><td>138.5</td>
+			<tr><td>2°</td><td>Erick</td><td>Passo Fundo RS</td><td>Taramps</td><td>Eros</td><td>129.6</td>
 			</tr>
 	  </table>
 			</br>
@@ -1211,6 +1307,7 @@ animation-duration: 300ms;
 			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
 			<tr><td>1°</td><td>Jéssica Muraro</td><td>Ouro SC</td><td>Taramps</td><td>7 drive</td><td>141.6</td>
 			<tr><td>2°</td><td>Catiele Tarifa</td><td>Soledade RS </td><td>souddigital</td><td>Master</td><td>141.2</td>
+			<tr><td>2°</td><td>Micaele</td><td>Ibirubá RS</td><td>Módulo Taramps</td><td>Falante master</td><td>141.2</td>
 			</tr>
 	  </table>
 			</br>
@@ -1366,6 +1463,1334 @@ animation-duration: 300ms;
 
     <p class="card-text mycolorfont"><small class="text-body-secondary mycolorfont">Atualizado em 07/09/2024 .</small></p>
   </div>
+
+		</div><!--- fim do primeiro dropdow --->
+
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdownA()">Ranking de 2025 - ver mais.</div>
+        <div class="dropdown-contentA">
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">Aro 13 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 original </th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 ar com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 com corte rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 sem mola</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 mista</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 com corte  fixa masculino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 rosca com corte feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 ar feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 rosca feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 fixa feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 mista feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 ar picape com corte extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 13 ar com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 original</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 rosca feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 ar feminina</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 sem mola feminina</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 ar extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 original feminina</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 picape original</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 fixa picape</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 14 mista</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 rosca feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 rosca com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 rosca extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 ar com corte feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 rosca com corte feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 esportiva</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 com corte extreme feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15  ar extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 ar feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 fixa feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 mista</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape mista</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape com corte ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 picape com corte extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 com corte ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 fixa com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 com corte fixa feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 facão</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 15 original</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 ar feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 picape ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 rosca feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 fixa picape</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 16 fixa feminina</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar com corte feminina</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 fixa com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 fixa com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 rosca com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar com corte extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>4°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 picape ar extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 mista</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 rosca extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 esportiva</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 picape ar </th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 fixa feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 ar extreme feminina</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+	  
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 picape fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 picape rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 17 picape ar com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 original picape 4x4</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 fixa com corte</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">Aro 18 picape com corte feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 fixa com corte feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 fixa com corte feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 fixa extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 ar feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 picape ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">Aro 18 fixa picape</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro  18 picape rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro  18 rosca feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 picape com corte ar extreme </th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 picape ar extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 18 com corte picape extreme</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 19 rosca feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 rosca</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 ar</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 ar feminino</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 20 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 22 fixa</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 22 fixa extreme pick UP 4x4</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="4">aro 22 fixa extreme pick UP 4x4 esmael</th></tr>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+		<!--------------------------- SEGUNDO RANK --------------------------->
+    <h5 class="card-title mycolorbg" style="text-align:center;">Ranking som automotivo</h5>
+    <p class="card-text">Queremos parabenizar a todos os competidores pelo desempenho excepcional e pela paixão demonstrada ao longo desta jornada emocionante..</p>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 1 AF Mala Aberta 12 V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 1 AF frequência fixa 12 V feminino</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 2 AF Mala aberta (HV)</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 2 AF musical 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 2 AF musical 12V feminino</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 2 AF Mala aberta 12 V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 2AF Frequência fixa 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 2AF Frequência fixa 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 3 AF frequência fixa 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 3 AF Mala aberta 12 V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 3 AF Mala aberta 12 V feminino</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 4 AF Mala aberta 12V feminino</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 4 AF Mala aberta 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 4 AF Raxa de Base 12 V feminino</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 4 AF Mala aberta (HF)</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 4 AF frequência fixa 12 V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 4 AF musical 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 4 AF frequência fixa 12 V feminino</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 6 AF Mala aberta (HV)</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 6 AF Mala aberta 12 V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 6 AF frequência fixa 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 8 AF Mala Aberta 12 V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 8 AF Mala Aberta (HV)</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 8 AF frequência fixa (HV)</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 8 AF frequência fixa 12V</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 12 AF Raxa de Base HV</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 12 AF frequência fixa (HV)</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+		<table class="mycolorfont mycolorbg">
+			<tr><th  style="text-align:center;background-color:#000000;" colspan="6">Categoria 21 AF Raxa de Base (HV)</th></tr>
+			<tr><td>RANK</td><td>NOME</td><td>CIDADE</td><td>MÓDULO</td><td>FALANTE</td><td>DB</td>
+			<tr><td>1°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>2°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			<tr><td>3°</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+			</tr>
+	  </table>
+			</br>
+
+
+    <p class="card-text mycolorfont"><small class="text-body-secondary mycolorfont">Atualizado em 07/09/2024 .</small></p>
+  </div>
+
+        </div>
+    </div>
+
+
 </div>
 
         </div>
@@ -1569,5 +2994,15 @@ animation-duration: 300ms;
 </div>
 <script></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <script>
+        function toggleDropdown() {
+            var content = document.querySelector(".dropdown-content");
+            content.style.display = (content.style.display === "block") ? "none" : "block";
+        }
+				function toggleDropdownA() {
+            var content = document.querySelector(".dropdown-contentA");
+            content.style.display = (content.style.display === "block") ? "none" : "block";
+        }
+    </script>
 </body>
 </html>
